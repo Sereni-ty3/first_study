@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>豆瓣电影TOP250（爬虫）</title>
+</head>
+<body>
+<h1>豆瓣电影TOP250</h1>
+{% for items in top250%}
+    <li>{{ items }}</li>
+    <hr/>
+{% endfor %}
+</body>
+</html>
